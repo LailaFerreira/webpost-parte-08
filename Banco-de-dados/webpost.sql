@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: 28/12/2015 às 10:20
+-- Tempo de Geração: 28/12/2015 às 12:49
 -- Versão do servidor: 5.5.46-0ubuntu0.14.04.2
 -- Versão do PHP: 5.5.9-1ubuntu4.14
 
@@ -59,15 +59,14 @@ CREATE TABLE IF NOT EXISTS `login` (
   `us_chave` varchar(70) COLLATE utf8_unicode_ci NOT NULL,
   `us_data` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`us_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
 
 --
 -- Fazendo dump de dados para tabela `login`
 --
 
 INSERT INTO `login` (`us_id`, `us_nome`, `us_email`, `us_pass`, `us_chave`, `us_data`) VALUES
-(1, 'fabricio', 'fabricio', '123456', '123456', '2015-08-10 19:59:40'),
-(2, 'fabricio', 'fabricio@webpost.com', '498214ce99a157c6414243417c8c527e', '4c914b720f8609cf8183a42875de02c3', '2015-08-10 20:05:17');
+(3, 'admin', 'fa@fa.com', '21232f297a57a5a743894a0e4a801fc3', '4f571d0a019d941e2720017cdbb91b31', '2015-12-28 14:47:40');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
